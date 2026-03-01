@@ -19,10 +19,6 @@ PRODUCT_PACKAGES += \
     AvatarPickerPixelOverlay \
     CellBroadcastReceiverOverlay \
     CellBroadcastServiceOverlay \
-    GlanceableHubConfigOverlay \
-    GlanceableHubSettingsConfigOverlay \
-    GlanceableHubSettingsConfigOverlay2022 \
-    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GoogleDeviceLockControllerOverlay \
     GoogleHealthConnectOverlay \
@@ -41,8 +37,6 @@ PRODUCT_PACKAGES += \
     PixelContactsProvider \
     PixelDeviceDiagnostics \
     PixelDocumentsUIGoogleOverlay \
-    PixelLauncherNoGestureHintOverlay \
-    PixelLauncherOverlayCustom \
     PixelSettingsGoogle \
     PixelSettingsProvider \
     PixelSetupWizardOverlayExpressive \

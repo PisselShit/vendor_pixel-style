@@ -50,7 +50,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.device_info_icon_enabled=true \
     setupwizard.feature.provisioning_profile_mode=true \
     setupwizard.feature.enable_gil= \
-    setupwizard.feature.enable_gil_logging=true \
     setupwizard.feature.enable_minors_setup_flow=true \
     setupwizard.feature.enable_parental_notice_activity=true \
     setupwizard.feature.enable_parental_setup=true \
@@ -64,11 +63,6 @@ PRODUCT_PRODUCT_PROPERTIES += ro.setupwizard.rotation_locked=false
 else
 PRODUCT_PRODUCT_PROPERTIES += ro.setupwizard.rotation_locked=true
 endif
-
-# StorageManager configuration
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.storage_manager.enabled=false \
-    ro.storage_manager.show_opt_in=false
 
 # Google legal
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -114,9 +108,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.photos.eraser_suggestion=1 \
     debug.photos.force_pixel_eol=1 \
     debug.photos.p_editr.eraser=1
-
-# Inherit from audio config
-$(call inherit-product, vendor/pixel-style/config/audio.mk)
 
 # Inherit from rro_overlays config
 $(call inherit-product, vendor/pixel-style/config/rro_overlays.mk)
